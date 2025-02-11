@@ -19,7 +19,7 @@ public class Step3 : MonoBehaviour
         Debug.Log(_currentHealth / _maxHealth);
 
         _currentHealth = _currentHealth - _damage;
-        _currentHealth -= _damage;
+        _currentHealth -= _damage; 
         Debug.Log(_currentHealth / _maxHealth);
 
         _currentHealth = _currentHealth + _healthPotion;
