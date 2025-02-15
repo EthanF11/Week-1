@@ -30,7 +30,7 @@ public class Step1 : MonoBehaviour
 
         _playerName: Stores the name of the player as a string ("Adventurer").
         _level: An integer (int) representing the player's level (1).
-        _currentHealth: A float representing the player’s current health (75.00f).
+        _currentHealth: A float representing the player's current health (75.00f).
         _maxHealth: A private float representing the maximum health (100.0f).
         _isAlive: A boolean that tracks whether the player is alive (true).
 

@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class Step3 : MonoBehaviour
 {
@@ -19,17 +19,17 @@ public class Step3 : MonoBehaviour
         Debug.Log(_currentHealth / _maxHealth);
 
         //_currentHealth = _currentHealth - _damage;
-        _currentHealth -= _damage;
+        _currentHealth -= _damage; 
         Debug.Log(_currentHealth / _maxHealth);
 
-        //_currentHealth = _currentHealth + _healthPotion;
+       // _currentHealth = _currentHealth + _healthPotion;
         _currentHealth += _healthPotion;
         Debug.Log(_currentHealth / _maxHealth);
 
     }
 }
 /*
-    1. Class Definition
+  1. Class Definition
 
     This is a Unity script named Step3 that inherits from MonoBehaviour, meaning it can be attached to a GameObject.
 
@@ -37,8 +37,8 @@ public class Step3 : MonoBehaviour
     {
         2. Variables (Fields)
 
-        _playerName: Stores the player’s name ("Adventurer").
-        _level: Represents the player’s level (1).
+        _playerName: Stores the playerï¿½s name ("Adventurer").
+        _level: Represents the playerï¿½s level (1).
         _currentHealth: Tracks the player's current health (75.00).
         _maxHealth: The maximum possible health (100.0), marked as private so it can only be accessed inside this class.
         _isAlive: A bool (true) that indicates whether the player is alive.
