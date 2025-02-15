@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Step1 : MonoBehaviour
 {
-    string _playerName = "Adventurer";
+    public string _playerName = "Adventurer";
     int _level = 1;
     float _currentHealth = 75.00f;
     private float _maxHealth = 100.0f;
