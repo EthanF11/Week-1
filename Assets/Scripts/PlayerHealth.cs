@@ -2,10 +2,10 @@ namespace Player
 {
     public class PlayerHealth : MonoBehaviour
     {
-       [SerializeField] int currentHealth = 100;
-       [SerializeField] int maxHealth = 100;
-       [SerializeField] int healthPotionHeal = 20;
-       [SerializeField] int healPotion = 5;
+       [SerializeField] public int currentHealth = 100;
+       [SerializeField] public int maxHealth = 100;
+       [SerializeField] public int healthPotionHeal = 20;
+       [SerializeField] public int healPotion = 5;
         // Update is called once per frame
         void Update()
         {
